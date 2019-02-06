@@ -24,7 +24,7 @@ pipenv install gunicorn whitenoise
 ```
 4. Create your Procfile and add the following code (if you used something other than conf for your project folder, the your code will be different):
 ```
-web: gunicorn conf.wisgi
+web: gunicorn conf.wsgi
 ```
 5. Add white noise to MIDDLEWARE inside your settings.py file:
 ```
